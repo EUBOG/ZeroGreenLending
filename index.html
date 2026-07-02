@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoLife — экотовары для дома</title>
+  <meta name="description" content="EcoLife — российский бренд экотоваров для дома. Бамбук, органический хлопок, биоразлагаемые материалы. Zero Waste, натуральный состав, углеродно-нейтральная доставка.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div id="scrollBar"></div>
+
+  <!-- Floating Leaves Animation -->
+  <div class="leaf" style="left: 5%; animation-duration: 26s; animation-delay: 0s; font-size: 1.6rem;">🍃</div>
+  <div class="leaf" style="left: 18%; animation-duration: 30s; animation-delay: 4s; font-size: 1.2rem;">🌿</div>
+  <div class="leaf" style="left: 38%; animation-duration: 22s; animation-delay: 2s; font-size: 1rem;">🍀</div>
+  <div class="leaf" style="left: 58%; animation-duration: 28s; animation-delay: 7s; font-size: 1.8rem;">🌱</div>
+  <div class="leaf" style="left: 78%; animation-duration: 25s; animation-delay: 3s; font-size: 1.3rem;">🍃</div>
+  <div class="leaf" style="left: 92%; animation-duration: 32s; animation-delay: 9s; font-size: 1.1rem;">🌿</div>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header">
+    <div class="container">
+      <a href="#" class="logo">EcoLife</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">☰</button>
+      <nav id="nav">
+        <a href="#about">О продукте</a>
+        <a href="#benefits">Преимущества</a>
+        <a href="#products">Товары</a>
+        <a href="#case">Кейс</a>
+        <a href="#forwhom">Для кого</a>
+        <a href="#cta">Заказать</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO (Первый экран) ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-parallax" id="p1">🌿</div>
+    <div class="hero-parallax" id="p2">🍃</div>
+    <div class="hero-parallax" id="p3">🌱</div>
+    <div class="container">
+      <div class="hero-badge">🌍 Новая коллекция 2026</div>
+      <h1>Забота о природе<br>начинается <em>с твоего дома</em></h1>
+      <p>
+        Экологичные товары для дома без пластика и химии.
+        Бамбук, органический хлопок, биоразлагаемые материалы —
+        с заботой о вашем здоровье и планете.
+      </p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-primary btn-lg">Выбрать товары</a>
+        <a href="#cta" class="btn btn-outline btn-lg">Получить скидку 15%</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num">5 000+</div>
+          <div class="hero-stat-label">семей выбрали EcoLife</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">12 000+</div>
+          <div class="hero-stat-label">посаженных деревьев</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">4.9</div>
+          <div class="hero-stat-label">средняя оценка</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== О ПРОДУКТЕ ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Что такое EcoLife?</h2>
+        <p class="section-sub">
+          Российский бренд экотоваров для дома. Мы создаём качественные
+          альтернативы пластику, которые служат долго и не вредят природе.
+        </p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal reveal-delay-1">
+          <p>
+            EcoLife — это линия товаров из натуральных и переработанных материалов:
+            от твёрдых шампуней без сульфатов до многоразовых бамбуковых салфеток.
+            Каждый продукт разработан так, чтобы минимизировать отходы и прослужить
+            максимально долго. Мы упаковываем товары в переработанный картон,
+            компенсируем углеродный след и отчисляем 5% выручки на восстановление лесов.
+          </p>
+          <ul class="about-list">
+            <li>🔬 Сертифицировано по стандартам эко-безопасности OEKO-TEX</li>
+            <li>📦 Минимальная упаковка из переработанного картона</li>
+            <li>🔁 Многоразовые решения вместо одноразовых аналогов</li>
+            <li>🌱 5% от выручки направляем на восстановление экосистем</li>
+          </ul>
+          <a href="#products" class="btn btn-primary">Смотреть каталог →</a>
+        </div>
+        <div class="about-visual reveal reveal-delay-2">
+          <div class="about-visual-grid">
+            <div class="about-visual-item">🧴</div>
+            <div class="about-visual-item">🛒</div>
+            <div class="about-visual-item">🧹</div>
+            <div class="about-visual-item">🍶</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ПРЕИМУЩЕСТВА ===== -->
+  <section id="benefits">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Почему выбирают EcoLife</h2>
+        <p class="section-sub">
+          Четыре причины перейти на экологичные товары для дома прямо сейчас
+        </p>
+      </div>
+      <div class="features">
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon">🌱</div>
+          <h3>Натуральные материалы</h3>
+          <p>
+            Только сертифицированное сырьё: бамбук, органический хлопок,
+            переработанный пластик и биоразлагаемые компоненты без токсинов.
+          </p>
+        </div>
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon">♻️</div>
+          <h3>Философия Zero Waste</h3>
+          <p>
+            Минимум упаковки, многоразовые решения, продукция без микропластика —
+            помогаем сократить бытовые отходы до 40%.
+          </p>
+        </div>
+        <div class="feature-card reveal reveal-delay-3">
+          <div class="feature-icon">💰</div>
+          <h3>Выгодно для бюджета</h3>
+          <p>
+            Многоразовые товары окупаются за 2–3 месяца. Твёрдый шампунь длится
+            в 3 раза дольше обычного, салфетки выдерживают до 200 стирок.
+          </p>
+        </div>
+        <div class="feature-card reveal reveal-delay-4">
+          <div class="feature-icon">🚚</div>
+          <h3>Углеродно-нейтральная доставка</h3>
+          <p>
+            Компенсируем выбросы CO₂ за каждую доставку. Используем только
+            перерабатываемые коробки и крафтовую бумагу.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ДЛЯ КОГО ===== -->
+  <section id="forwhom">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Кому подходят наши товары</h2>
+        <p class="section-sub">
+          EcoLife создан для тех, кто хочет жить осознанно,
+          не жертвуя комфортом и качеством
+        </p>
+      </div>
+      <div class="personas">
+        <div class="persona-card reveal reveal-delay-1">
+          <div class="persona-icon">👨‍👩‍👧‍👦</div>
+          <h3>Семьи с детьми</h3>
+          <p>
+            Ищете безопасные и гипоаллергенные средства без химии?
+            Наши товары сертифицированы и подходят для ежедневного
+            использования всей семьёй — от малышей до бабушек.
+          </p>
+        </div>
+        <div class="persona-card reveal reveal-delay-2">
+          <div class="persona-icon">🧑‍💻</div>
+          <h3>Осознанные миллениалы</h3>
+          <p>
+            Следите за трендами устойчивого развития и хотите
+            минимизировать экослед? Начните с набора для Zero Waste:
+            эко-сумка + бамбуковые салфетки + термобутылка.
+          </p>
+        </div>
+        <div class="persona-card reveal reveal-delay-3">
+          <div class="persona-icon">🎁</div>
+          <h3>Ищете экоподарки</h3>
+          <p>
+            Надоели безделушки? Подарите близким то, что действительно
+            важно: заботу о природе и здоровье. У нас есть готовые
+            подарочные наборы с красивой крафтовой упаковкой.
+          </p>
+        </div>
+        <div class="persona-card reveal reveal-delay-4">
+          <div class="persona-icon">🏢</div>
+          <h3>Корпоративные клиенты</h3>
+          <p>
+            Хотите внедрить экопривычки в офисе или заказать
+            брендированные эко-наборы для сотрудников? Работаем
+            с юрлицами и предлагаем оптовые скидки.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== СТАТИСТИКА ===== -->
+  <section>
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">EcoLife в цифрах</h2>
+        <p class="section-sub">Наш вклад в экологию за 2 года работы</p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card reveal reveal-delay-1">
+          <div class="stat-icon">👨‍👩‍👧‍👦</div>
+          <div class="stat-number">
+            <span class="stat-counter" data-target="5000">0</span>
+            <span class="stat-plus">+</span>
+          </div>
+          <div class="stat-label">довольных семей</div>
+        </div>
+        <div class="stat-card reveal reveal-delay-2">
+          <div class="stat-icon">🌳</div>
+          <div class="stat-number">
+            <span class="stat-counter" data-target="12000">0</span>
+            <span class="stat-plus">+</span>
+          </div>
+          <div class="stat-label">посажено деревьев</div>
+        </div>
+        <div class="stat-card reveal reveal-delay-3">
+          <div class="stat-icon">♻️</div>
+          <div class="stat-number">
+            <span class="stat-counter" data-target="50">0</span>
+            <span class="stat-plus">+ т</span>
+          </div>
+          <div class="stat-label">пластика сэкономлено</div>
+        </div>
+        <div class="stat-card reveal reveal-delay-4">
+          <div class="stat-icon">⭐</div>
+          <div class="stat-number">4.9</div>
+          <div class="stat-label">средний рейтинг</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ТОВАРЫ ===== -->
+  <section id="products">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Товары, которые меняют привычки</h2>
+        <p class="section-sub">
+          Хиты этой недели — многие позиции уже заканчиваются.
+          Успейте заказать со скидкой до 20%!
+        </p>
+      </div>
+      <div class="products">
+        <div class="product-card reveal reveal-delay-1">
+          <div class="product-img">
+            🧴
+            <span class="product-badge product-badge-hot">ХИТ</span>
+          </div>
+          <div class="product-body">
+            <h3>Шампунь твёрдый «Лаванда»</h3>
+            <p>
+              Натуральный состав без сульфатов и силиконов. Одной плитки
+              хватает на 3 месяца ежедневного использования. Подходит
+              для всех типов волос.
+            </p>
+            <div class="product-foot">
+              <span class="product-price">490 ₽</span>
+              <button class="btn product-btn btn-order">В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card reveal reveal-delay-2">
+          <div class="product-img">
+            🛒
+            <span class="product-badge product-badge-new">ЭКО</span>
+          </div>
+          <div class="product-body">
+            <h3>Сумка для покупок из хлопка</h3>
+            <p>
+              Из органического хлопка. Вмещает до 25 кг. Складывается
+              в карман. Заменит 1 000 пластиковых пакетов. Доступна
+              в 4 цветах.
+            </p>
+            <div class="product-foot">
+              <span class="product-price">350 ₽</span>
+              <button class="btn product-btn btn-order">В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card reveal reveal-delay-3">
+          <div class="product-img">
+            🧹
+            <span class="product-badge product-badge-sale">-20%</span>
+          </div>
+          <div class="product-body">
+            <h3>Салфетки из бамбука (5 шт.)</h3>
+            <p>
+              5 многоразовых салфеток для кухни и уборки. Моются
+              в стиральной машине до 200 раз. Заменяют бумажные
+              полотенца и поролоновые губки.
+            </p>
+            <div class="product-foot">
+              <span class="product-price">290 ₽</span>
+              <button class="btn product-btn btn-order">В корзину</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card reveal reveal-delay-4">
+          <div class="product-img">
+            🍶
+            <span class="product-badge product-badge-new">НОВИНКА</span>
+          </div>
+          <div class="product-body">
+            <h3>Термобутылка из стали 500 мл</h3>
+            <p>
+              Из пищевой нержавейки. Держит тепло 12 часов,
+              холод — 24 часа. Без BPA и других вредных
+              веществ. Подходит для горячих напитков.
+            </p>
+            <div class="product-foot">
+              <span class="product-price">890 ₽</span>
+              <button class="btn product-btn btn-order">В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== КЕЙС / ПРИМЕР ИСПОЛЬЗОВАНИЯ ===== -->
+  <section id="case">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Реальный опыт: семья Ивановых</h2>
+        <p class="section-sub">
+          Как переход на экотовары изменил жизнь обычной семьи
+          из Новосибирска за 3 месяца
+        </p>
+      </div>
+      <div class="case-grid">
+        <div class="case-visual reveal reveal-delay-1">
+          <span class="case-visual-icon">🏠</span>
+          <div class="case-visual-steps">
+            <div class="case-visual-step">
+              <div class="case-visual-step-num">1</div>
+              <div class="case-visual-step-label">Заменили пластик</div>
+            </div>
+            <div class="case-visual-step">
+              <div class="case-visual-step-num">2</div>
+              <div class="case-visual-step-label">Сократили отходы</div>
+            </div>
+            <div class="case-visual-step">
+              <div class="case-visual-step-num">3</div>
+              <div class="case-visual-step-label">Экономят бюджет</div>
+            </div>
+          </div>
+        </div>
+        <div class="case-content reveal reveal-delay-2">
+          <h3>«Мы не ожидали, что будет так просто и выгодно»</h3>
+          <p>
+            Алексей и Мария из Новосибирска решили попробовать жить без пластика.
+            Начали с малого — заказали набор бамбуковых салфеток и твёрдый шампунь.
+            Через месяц добавили эко-сумку и термобутылку. Результат превзошёл
+            ожидания: семья из 4 человек сократила количество бытовых отходов
+            вдвое, а за год сэкономила более 8 000 ₽ на одноразовых товарах.
+          </p>
+          <div class="case-result">
+            <span class="case-result-icon">📊</span>
+            <span class="case-result-text">
+              <strong>-50%</strong> бытовых отходов ·
+              <strong>+8 000 ₽</strong> экономии в год ·
+              <strong>2 кг</strong> пластика не отправлено на свалку
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ОТЗЫВЫ ===== -->
+  <section id="testimonials">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Что говорят покупатели</h2>
+        <p class="section-sub">
+          Более 3 000 семей уже сделали свой выбор в пользу экологии —
+          вот что они пишут
+        </p>
+      </div>
+      <div class="testimonials">
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>
+            «Перестала покупать пластиковые бутылки после термокружки
+            от EcoLife. Удобно, красиво, и реально держит чай горячим
+            весь день. Заказала уже 4 штуки в подарок коллегам!»
+          </p>
+          <div class="testimonial-author">
+            Анна
+            <span>· Москва</span>
+          </div>
+        </div>
+        <div class="testimonial-card reveal reveal-delay-2">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>
+            «Твёрдый шампунь — открытие года! Волосы мягкие, пахнет
+            божественно, и никакого пластика. К тому же экономит место
+            в ванной. Буду заказывать ещё и кондиционер.»
+          </p>
+          <div class="testimonial-author">
+            Дмитрий
+            <span>· Казань</span>
+          </div>
+        </div>
+        <div class="testimonial-card reveal reveal-delay-3">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>
+            «Подарил родителям набор бамбуковых салфеток. Мама теперь
+            всем соседям рассказывает, как здорово — ничего не надо
+            выбрасывать. Заказали ещё несколько штук про запас!»
+          </p>
+          <div class="testimonial-author">
+            Елена
+            <span>· Санкт-Петербург</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ФОРМА ЗАЯВКИ (CTA) ===== -->
+  <section class="cta-section" id="cta">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Начни заботиться о планете сегодня</h2>
+        <p class="section-sub">
+          Оставьте заявку и получите <strong>скидку 15%</strong>
+          на первый заказ + бесплатная доставка при заказе от 1 500 ₽
+        </p>
+      </div>
+      <form class="cta-form reveal reveal-delay-1" id="ctaForm">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="tel" placeholder="Номер телефона" required>
+        <button type="submit" class="btn">
+          Хочу скидку 15% →
+        </button>
+        <div class="cta-tip">
+          🔒 Оставляя заявку, вы соглашаетесь на обработку данных
+        </div>
+        <div class="msg-success" id="ctaSuccess">
+          Спасибо! Скоро свяжемся и отправим промокод на скидку 15%.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== КОНТАКТЫ ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="section-title">Остались вопросы?</h2>
+        <p class="section-sub">
+          Напишите нам — ответим в течение нескольких часов
+        </p>
+      </div>
+      <form class="contact-form reveal reveal-delay-1" id="contactForm">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Ваше сообщение" required></textarea>
+        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+        <div class="msg-success" id="msgSuccess">
+          Спасибо! Мы свяжемся с вами в ближайшее время.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="socials">
+        <a href="#" aria-label="Instagram">📷</a>
+        <a href="#" aria-label="Telegram">✈️</a>
+        <a href="#" aria-label="VK">💬</a>
+        <a href="#" aria-label="YouTube">▶️</a>
+      </div>
+      <div class="footer-links">
+        <a href="#about">О продукте</a>
+        <a href="#benefits">Преимущества</a>
+        <a href="#products">Каталог</a>
+        <a href="#case">Кейс</a>
+        <a href="#forwhom">Для кого</a>
+        <a href="#cta">Заказать</a>
+      </div>
+      <p>© 2026 EcoLife. Все права защищены.</p>
+      <p>Сделано с заботой о планете</p>
+    </div>
+  </footer>
+
+  <!-- ===== MODAL ===== -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <span class="modal-icon">🎉</span>
+      <h2>Ваш промокод готов!</h2>
+      <p>
+        Заберите скидку 15% на первый заказ:
+        <strong style="color: #2e7d32; font-size: 1.3rem; letter-spacing: 3px; display: block; margin-top: 8px;">ECOLIFE15</strong>
+      </p>
+      <p style="font-size: 0.9rem; color: #8a9a8a;">
+        Скопируйте код и введите при оформлении заказа
+      </p>
+      <button class="btn btn-primary" id="modalClose">Отлично, спасибо!</button>
+    </div>
+  </div>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script src="js/script.js"></script>
+</body>
+</html>
